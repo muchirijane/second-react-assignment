@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Merienda+One&family=Nunito:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+}
+
+p {
+  font-family: 'Chilanka', cursive;
+  font-size: 18px;
+}
+
+label {
+  font-family: 'Chilanka', cursive;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

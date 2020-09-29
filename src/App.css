@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.Bg {
+  background-color: #202c39;
+  color: #fff;
+  min-height: 100vh;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+
+.Title {
+  margin-bottom: 30px;
+}
+
+.Card {
+  background-color: #f9dbbd;
+  color: #fff;
+  animation: Card-spin 2s linear infinite;
+}
+
+@keyframes Card-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
